@@ -66,12 +66,12 @@ def rev_sentence_3(sentence):
 
 def rev(wordList):
 
-	revList = []
+    revList = []
 
-	for word in wordList:
-		revList = [word] + revList
+    for word in wordList:
+        revList = [word] + revList
 
-#	return ' '.join(revList)
+#    return ' '.join(revList)
 
     rev_sent = ''
 
