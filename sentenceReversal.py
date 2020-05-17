@@ -71,9 +71,14 @@ def rev(wordList):
 	for word in wordList:
 		revList = [word] + revList
 
-	return ' '.join(revList)
+#	return ' '.join(revList)
 
+    rev_sent = ''
 
+    for word in revList[:-1]:
+    	rev_sent = rev_sent + str(word) + ' '
+
+    return rev_sent + str(revList[-1])
 
 '''
 RUN THIS TO TEST THE SOLUTION
