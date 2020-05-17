@@ -71,8 +71,19 @@ def rev(wordList):
 	for word in wordList:
 		revList = [word] + revList
 
+<<<<<<< HEAD
 	return ' '.join(revList)
 
+=======
+#	return ' '.join(revList)
+
+    rev_sent = ''
+
+    for word in revList[:-1]:
+    	rev_sent = rev_sent + str(word) + ' '
+
+    return rev_sent + str(revList[-1])
+>>>>>>> 3c3df8f... sentenceReversal.py
 
 
 '''
