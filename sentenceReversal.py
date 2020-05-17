@@ -66,19 +66,19 @@ def rev_sentence_3(sentence):
 
 def rev(wordList):
 
-    revList = []
+        revList = []
 
-    for word in wordList:
-        revList = [word] + revList
+        for word in wordList:
+            revList = [word] + revList
 
-#    return ' '.join(revList)
+#        return ' '.join(revList)
 
-    rev_sent = ''
+        rev_sent = ''
 
-    for word in revList[:-1]:
-    	rev_sent = rev_sent + str(word) + ' '
+        for word in revList[:-1]:
+    	    rev_sent = rev_sent + str(word) + ' '
 
-    return rev_sent + str(revList[-1])
+        return rev_sent + str(revList[-1])
 
 '''
 RUN THIS TO TEST THE SOLUTION
@@ -88,12 +88,12 @@ from nose.tools import assert_equal
 
 class ReversalTest(object):
     
-    def test(self,sol):
-        assert_equal(sol('    space before'),'before space')
-        assert_equal(sol('space after     '),'after space')
-        assert_equal(sol('   Hello John    how are you   '),'you are how John Hello')
-        assert_equal(sol('1'),'1')
-        print("ALL TEST CASES PASSED")
+        def test(self,sol):
+            assert_equal(sol('    space before'),'before space')
+            assert_equal(sol('space after     '),'after space')
+            assert_equal(sol('   Hello John    how are you   '),'you are how John Hello')
+            assert_equal(sol('1'),'1')
+            print("ALL TEST CASES PASSED")
         
 # Run and test
 t = ReversalTest()
