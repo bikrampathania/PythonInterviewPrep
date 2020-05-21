@@ -19,6 +19,9 @@ False
 
 def balance_paren_check(s):
 
+	if len(s) % 2 != 0:
+		return False
+
 	chars = []
 	matches = {')':'(', '}':'{', ']':'['}
 
