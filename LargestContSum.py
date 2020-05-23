@@ -14,7 +14,7 @@ def large_cont_sum(arr):
 
 	for num in arr[1:]:
 
-		current_sum = max(current+sum + num, num)
+		current_sum = max(current_sum + num, num)
 
 		max_sum = max(max_sum, current_sum)
 
