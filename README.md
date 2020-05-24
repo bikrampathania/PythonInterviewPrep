@@ -1,2 +1,2 @@
-# PythonCodingPrep
+# PythonInterviewPrep
 Python coding practice
