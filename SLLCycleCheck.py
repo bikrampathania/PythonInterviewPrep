@@ -42,9 +42,9 @@ a = Node(1)
 b = Node(2)
 c = Node(3)
 
-a.nextnode = b
-b.nextnode = c
-c.nextnode = a # Cycle Here!
+a.next_node = b
+b.next_node = c
+c.next_node = a # Cycle Here!
 
 
 # CREATE NON CYCLE LIST
@@ -52,8 +52,8 @@ x = Node(1)
 y = Node(2)
 z = Node(3)
 
-x.nextnode = y
-y.nextnode = z # No Cycle Here!
+x.next_node = y
+y.next_node = z # No Cycle Here!
 
 
 #############
