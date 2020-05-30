@@ -22,3 +22,5 @@ def compareTriplets(a, b):
 			alice += 1
 		else:
 			bob += 1
+
+	return [alice, bob]
