@@ -1,12 +1,12 @@
 # PythonInterviewPrep
 Python coding practice
 
-_HR: HackerRank solves
+*_HR: my HackerRank solutions*
 
-_HE: HackerEarch solves
+*_HE: my HackerEarch solutions*
 
-_UD: Udemy exercise solves
+*_UD: my Udemy exercise solutions*
 
-_CC: CodeChef solves
+*_CC: my CodeChef solutions*
 
-None: Practice code
+*None: Practice code*
