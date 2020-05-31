@@ -1,4 +1,4 @@
-# PythonInterviewPrep
+# PythonPrep
 **Python coding practice**
 
 *filename_HR: my HackerRank solutions*
