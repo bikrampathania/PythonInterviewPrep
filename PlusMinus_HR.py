@@ -24,7 +24,7 @@ def plusMinus(arr):
 		elif num == 0:
 			zero += 1
 		else:
-		return None
+		    return None
 
 	print('%.6f' % (positive/total))
 	print('%.6f' % (negative/total))
