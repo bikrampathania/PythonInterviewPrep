@@ -1,5 +1,5 @@
 # PythonInterviewPrep
-Python coding practice
+**Python coding practice**
 
 *_HR: my HackerRank solutions*
 
