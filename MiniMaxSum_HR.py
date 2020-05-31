@@ -13,6 +13,8 @@ def miniMaxSum(arr):
 
 	if len(arr) < 5:
 		return False
+	
+	arr = sorted(arr)
 
 	min = max = 0
 
