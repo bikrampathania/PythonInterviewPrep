@@ -10,10 +10,10 @@ Output: 19:05:45
 
 def timeConversion(s):
 
-    hrs12 = (s[:2])
+    hrs12 = s[:2]
     hrs24 = int(hrs12) + 12
-    mins = (s[3:5])
-    secs = (s[6:8])
+    mins = s[3:5]
+    secs = s[6:8]
     ampm = s[8:10]
 
     if int(hrs12) == 12 and ampm == 'AM':
